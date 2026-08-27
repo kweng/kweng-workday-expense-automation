@@ -85,7 +85,8 @@ and fill in the spreadsheet yourself using the column table there.
 I am building a travel expense report. I've uploaded:
 1. A batch of receipt PDFs/images for one trip.
 2. An example spreadsheet (Travel_Expenses.xlsx) showing the exact
-   format I need — same sheet name, same column headers.
+   format I need — same sheet name, same column headers. When you create
+   a new version of the xlsx do not change the name.
 
 For each receipt, add one row to a new spreadsheet matching the example's
 exact column headers and sheet name ("OANDA Aligned Expenses"). Columns,
@@ -120,8 +121,9 @@ one row per expense line:
   neighborhood or the hotel's brand name).
 - Major City — ONLY for Accommodation/Hotel rows: your best guess at the
   nearest large/well-known city a corporate travel booking system would
-  likely have as an option, if the true destination is a small town. Leave
-  blank if the true destination is already a major city. Put ONLY the city
+  likely have as an option, if the true destination is a small town. Err
+  on the side of using very large, well known cities. Leave blank if the
+  true destination is already a major city. Put ONLY the city
   name in this field — no country, no comma, no explanation of how
   confident you are in the guess. This gets typed verbatim into a real
   form field later, so anything extra here breaks it. If you want to note
