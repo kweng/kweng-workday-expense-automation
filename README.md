@@ -121,7 +121,12 @@ one row per expense line:
 - Major City — ONLY for Accommodation/Hotel rows: your best guess at the
   nearest large/well-known city a corporate travel booking system would
   likely have as an option, if the true destination is a small town. Leave
-  blank if the true destination is already a major city.
+  blank if the true destination is already a major city. Put ONLY the city
+  name in this field — no country, no comma, no explanation of how
+  confident you are in the guess. This gets typed verbatim into a real
+  form field later, so anything extra here breaks it. If you want to note
+  your confidence, or flag that a city was ambiguous, put that in Comment
+  instead.
 
 If a single hotel stay is split across multiple SEPARATE receipt files
 (not multiple line items on one file), don't silently combine them into
