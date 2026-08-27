@@ -1,0 +1,10 @@
+node_modules/
+playwright-profile/
+oanda_converter_pdfs/
+rates_result_converter.json
+receipts.json
+workday_manifest.json
+workday_manifest_warnings.txt
+*_verified.xlsx
+error_row*.png
+.DS_Store
